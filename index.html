@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+ 
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manchester United | Fan Website</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.hero1 { 
+    height: 80vh; 
+    background: linear-gradient(rgba(0,0,0,.6),
+     rgba(0,0,0,.6)), url('Images/mulogo.jpg') center/cover; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center; 
+     color: #fff; 
+     text-align: center; 
+    }
+
+header {
+    background: #c70101;
+    color: white;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 35px;
+}
+
+header .icons {
+    font-size: 22px;
+}
+
+.search-bar {
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: none;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar span {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 12px;
+}
+
+.card-content h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+.card-content p {
+    margin: 0 0 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.meta {
+    font-size: 12px;
+    color: #777;
+    display: flex;
+    justify-content: space-between;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="container">
+      <h1>Manchester United</h1>
+      <p class="tagline">Glory Glory Man United</p>
+    </div>
+
+    <div class="Search bar">
+      <input type="text" placeholder="Search....">
+      <span> 🔍</span>
+    </div>
+</header>
+
+ <nav>
+  <ul>
+    <li class="active"> <a href="index.html">Home</a> </li>
+    <li> <a href="players.html">Players</a> </li> 
+    <li> <a href="Memories.html">Memories</a> </li>
+    <li> <a href="trophies.html">Trophies</a> </li>    
+    <li> <a href="Contact.html">Contact</a> </li>
+    <li> <a href="about.html">About</a> </li>
+  </ul>
+ </nav>
+
+ <section class="hero" id="home">
+  <div class="hero-text">
+    <h2>The Theatre of Dreams</h2>
+    <p>One club. One history. One passion. <br> 
+    Once a red always a red</p>
+  </div>
+  </section>
+
+<div class="container">
+    <div class="card">
+        <img src="Images/RA.jpg">
+        <div class="card-content">
+            <h3>Team news for changing formation</h3>
+            <p>Ruben Amorim provides an update on his formation ahead of next champions league.</p>
+            <div class="meta">
+                <span>17h · News</span>
+                <span>🔗</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Images/news.jpg">
+        <div class="card-content">
+            <h3>Read Ruben's quotes on Bruno, Kobbie & more</h3>
+            <div class="meta">
+                <span>16h · News</span>
+                <span>🔗</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img src="Images/shirts.jpg">
+        <div class="card-content">
+            <h3>FREE PRINTING ON ALL SHIRTS</h3>
+            <p>Offer ends soon</p>
+        </div>
+    </div>
+</div>
+
+ <footer>
+  <p>© 2025 Manchester United Fan Website | Unofficial / Learning Purpose</p>
+ </footer>
+
+
+</body>
+</html>\
